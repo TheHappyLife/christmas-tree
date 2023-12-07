@@ -48,7 +48,7 @@ export default function Home() {
     }, 1000);
   }, []);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start p-24 bg-[#333] border">
+    <main className="flex min-h-screen flex-col items-center justify-start bg-[#333] border">
       {tree.map((e, index) => (
         <div className="leading-[1.2]" key={index}>
           {e}
