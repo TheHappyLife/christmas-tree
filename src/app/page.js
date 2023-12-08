@@ -58,7 +58,7 @@ export default function Home() {
       <Leaves color={"text-[#dc5200]"}>mwm</Leaves>
       <h1 className={'text-[#f00]'}>Merry Christmas!</h1>
       <h1 className={'text-[#ff0]'}>**24-12-2023**</h1>
-      <h1 className={'text-[#0f0]'}>***Made by Nguyen Handsome***</h1>
+      <h1 className={'text-[#0f0] text-[0.6rem]'}>***Made by Nguyen Handsome***</h1>
     </main>
   );
 }
